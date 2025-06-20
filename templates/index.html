@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><title>Predicción CS:GO</title></head>
+<body>
+    <h1>Predecir Victoria en Ronda de CS:GO</h1>
+    <form action="/predict" method="post">
+        <label>Mapa:</label>
+        <select name="Map">
+            <option value="de_dust2">de_dust2</option>
+            <option value="de_inferno">de_inferno</option>
+        </select><br><br>
+        <label>Equipo:</label>
+        <select name="Team">
+            <option value="Counter-Terrorist">Counter-Terrorist</option>
+            <option value="Terrorist">Terrorist</option>
+        </select><br><br>
+        <label>Kills en la Ronda:</label>
+        <input type="number" name="RoundKills" value="1"><br><br>
+        <button type="submit">Predecir</button>
+    </form>
+</body>
+</html>
