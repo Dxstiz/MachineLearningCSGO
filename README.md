@@ -3,6 +3,7 @@
  (PowerShell)
  
  cd ruta/a/la/carpeta/CSGO_PRODUCCION
+ 
  py -m venv venv
 
  .\venv\Scripts\Activate.ps1
