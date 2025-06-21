@@ -1,6 +1,46 @@
 <!DOCTYPE html>
 <html lang="es">
-<head><title>Resultado de la Predicción</title></head>
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado de la Predicción</title>
+    <style>
+        body {
+            background-color: #1e1e2f;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            color: #ffcc00;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        a {
+            background-color: #ffcc00;
+            color: #1e1e2f;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #e6b800;
+        }
+    </style>
+</head>
 <body>
     <h1>Resultado de la Predicción</h1>
     <h2>{{ prediction_text }}</h2>

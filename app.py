@@ -36,9 +36,9 @@ def predict():
         'Team': form_data.get('Team', 'Counter-Terrorist'),
         'RoundKills': int(form_data.get('RoundKills', 0)),
         'TravelledDistance': 2000, 'RLethalGrenadesThrown': 1, 'RNonLethalGrenadesThrown': 1,
-        'PrimaryAssaultRifle': 0.0, 'PrimarySniperRifle': 0.0, 'PrimarySMG': 0.1,
-        'PrimaryHeavy': 0.0, 'PrimaryPistol': 0.8, 'RoundAssists': 0, 'RoundFlankKills': 0,
-        'RoundHeadshots': 0, 'RoundStartingEquipmentValue': 1000, 'TeamStartingEquipmentValue': 4000
+        'PrimaryAssaultRifle': 0.8, 'PrimarySniperRifle': 0.0, 'PrimarySMG': 0.1,
+        'PrimaryHeavy': 0.0, 'PrimaryPistol': 0.1, 'RoundAssists': 0, 'RoundFlankKills': 0,
+        'RoundHeadshots': 0, 'RoundStartingEquipmentValue': 3000, 'TeamStartingEquipmentValue': 15000
     }
     
     # Convertimos a DataFrame
