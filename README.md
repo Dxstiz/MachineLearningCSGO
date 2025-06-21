@@ -1,6 +1,7 @@
 # MachineLearningCSGO
 
  (PowerShell)
+ 
  cd ruta/a/la/carpeta/CSGO_PRODUCCION
  py -m venv venv
 
